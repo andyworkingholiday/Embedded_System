@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"gpio2\startup_stm32f103xb.o"
+"gpio2\main.o"
+"gpio2\stm32f1xx_it.o"
+"gpio2\stm32f1xx_hal_msp.o"
+"gpio2\stm32f1xx_hal_gpio_ex.o"
+"gpio2\stm32f1xx_hal_tim.o"
+"gpio2\stm32f1xx_hal_tim_ex.o"
+"gpio2\stm32f1xx_hal_uart.o"
+"gpio2\stm32f1xx_hal.o"
+"gpio2\stm32f1xx_hal_rcc.o"
+"gpio2\stm32f1xx_hal_rcc_ex.o"
+"gpio2\stm32f1xx_hal_gpio.o"
+"gpio2\stm32f1xx_hal_dma.o"
+"gpio2\stm32f1xx_hal_cortex.o"
+"gpio2\stm32f1xx_hal_pwr.o"
+"gpio2\stm32f1xx_hal_flash.o"
+"gpio2\stm32f1xx_hal_flash_ex.o"
+"gpio2\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "gpio2\gpio2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "gpio2.map" -o gpio2\gpio2.axf
