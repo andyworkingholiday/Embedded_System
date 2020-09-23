@@ -28,6 +28,6 @@ Keil로 구현하지 못한 기능은 Mbed로 구현했습니다.
 * L298N
 * SR04 * 3
 * HM-10
-* DC Motore * 4
+* DC Motor * 4
 * 1700mH Battery
 * STM32F103RB
