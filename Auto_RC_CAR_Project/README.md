@@ -26,3 +26,4 @@
 * HM-10
 * DC Motore * 4
 * 1700mH Battery
+* STM32F103RB
